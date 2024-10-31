@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+        <!-- LINK SHOELACE UI -->
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/themes/light.css" >
+
+        <!-- LINK MY CSS FILE -->
+
+        <link rel="stylesheet" href="https://use.typekit.net/gvm7utz.css">
+        
+    <title>Kaninsky.net</title>
+
+</head>
+
+<body>
+
+  <!-- START OF THE PARALLAX FEATURE -->
+
+  <div class="parallax">
+
+    <a href="#title">
+
+      <!-- SHOELACE UI (1/3) -->
+
+      <sl-avatar class="avatar"
+      image="images\k..png"
+      label="k. logo"
+      ></sl-avatar>
+
+    </a>
+
+    <div class="parallax-inner">
+
+    <!-- TITLE -->
+
+      <div id="title"></div> 
+
+      <div class="navbar">
+
+        <div class="navbarchild">
+
+          <a href="#home"> HOME </a>
+          <a href="#gallery"> GALLERY </a>
+          <a href="#cart"> CART </a>
+          <a href="#about"> ABOUT </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- HOME SECTION -->
+
+    <div id= "home" ></div> 
+
+    <h1>HOME.</h1>
+
+    <div id="hometext">
+
+    Wassily Kandinsky was a pioneering Russian painter and art theorist, 
+    widely regarded as one of the foremost figures in abstract art. 
+    Born on December 16, 1866, in Moscow, Kandinsky's early career was 
+    rooted in law and economics; however, his passion for art ultimately 
+    led him to pursue a more creative path. Influenced by the vibrant colors
+    and spiritual themes of Russian folklore, as well as the burgeoning 
+    avant-garde movements in Europe, Kandinsky developed a unique style 
+    that emphasized the emotional and spiritual resonance... click to show more
+
+    </div>
+
+    <!-- GALLERY -->
+
+    <div id= "gallery" ></div> 
+
+    <h1>GALLERY.</h1>
+
+    <!-- SHOELACE UI (2/3) -->
+
+    <sl-carousel class="carousel" autoplay loop navigation >
+
+    <sl-carousel-item>
+    <img
+    alt="COMPOSITION IV - 1911"
+    src="images/compositioniv.jpg">
+
+    </sl-carousel-item>
+    <sl-carousel-item>
+    <img
+    alt="COMPOSITION V - 1911"
+    src="images/compositionv.jpg">
+
+    </sl-carousel-item>
+    <sl-carousel-item>
+    <img
+    alt="COMPOSITION VI - 1913"
+    src="images/compositionvi.jpg">
+
+    </sl-carousel-item>
+    <sl-carousel-item>
+    <img
+    alt="COMPOSITION VII - 1913"
+    src="images/compositionvii.webp">
+
+    </sl-carousel-item>
+    <sl-carousel-item>
+    <img
+    alt="COMPOSITION VIII - 1923"
+    src="images/compositionviii.jpg">
+
+    </sl-carousel-item>
+    </sl-carousel>
+
+    <!-- CART -->
+                              
+    <div id= "cart" ></div> 
+
+    <h1>CART.</h1>
+
+    <div class="paymentwindow">
+
+      <div class="payimg">
+
+        <img class="paytypes" src="images/pay.png" alt="payment options: Mastercard, Paypal, Apple Pay.">
+
+      </div>
+
+      <div class="paybox"> 
+
+        <!-- SHOELACE UI (3/3) -->
+
+        <sl-select class="paydrop">
+        <sl-option value="option-1">Mastercard</sl-option>
+        <sl-option value="option-2">Paypal</sl-option>
+        <sl-option value="option-3">Apple Pay</sl-option>
+        </sl-select>
+
+      </div>
+
+    </div>
+
+    <!-- ABOUT -->
+          
+    <div id= "about" ></div> 
+
+    <h1>ABOUT.</h1>
+
+    <p>Wassily Kandinsky was a pioneering Russian painter and art theorist.
+    This website was created in November 2024 to celebrate his legacy and
+    preserve his artwork for later generations.
+
+    For more info...</p>
+
+  </div>
+
+  <!-- END OF THE PARALLAX FEATURE -->
+
+  <!-- SOURCE SHOELACE -->
+              
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/shoelace-autoloader.js"></script>
+
+  <!-- SOURCE GSAP -->
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+
+  <!-- SOURCE MY JS FILE -->
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
